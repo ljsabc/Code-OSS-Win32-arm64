@@ -37,3 +37,10 @@ Still, when node-gyp propmts that the v6.0.1 arm64 lib is missing (because elect
 
 Do not build VSCode with native ARM64 node. It looks like tsc does not work well with the current Node binary. Please always do a cross compile.
 For other things just do a yarn and npm compile.   
+
+
+## Screenshot
+
+![Screenshot](screenshot.jfif)
+
+Personally speaking, the execution speed is damn fast (!). I tested on a Snapdragon 850 tablet w/ 8 Gigs of memory. The editing is quite smooth and the scrolling does not lag at all. The overall performance is better than a MacBook 12" (Core M/HD 615), even with several(9) extensions enabled.

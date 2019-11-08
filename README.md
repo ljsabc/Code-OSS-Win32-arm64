@@ -38,6 +38,9 @@ Still, when node-gyp propmts that the v6.0.1 arm64 lib is missing (because elect
 Do not build VSCode with native ARM64 node. It looks like tsc does not work well with the current Node binary. Please always do a cross compile.
 For other things just do a yarn and npm compile.   
 
+### About Extensions
+
+Someone has reported empty extensions. Basically this repo has included essential *native* extensions for you. For other non-native extensions, you can copy extension data from any (synced) x86-based VSCode and paste into your Code-OSS data folder.
 
 ## Screenshot
 

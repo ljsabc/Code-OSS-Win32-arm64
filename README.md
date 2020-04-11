@@ -40,7 +40,15 @@ For other things just do a yarn and npm compile.
 
 ### About Extensions
 
-Someone has reported empty extensions. Basically this repo has included essential *native* extensions for you. For other non-native extensions, you can copy extension data from any (synced) x86-based VSCode and paste into your Code-OSS data folder.
+To get extension support add
+```
+	"extensionsGallery": {
+		"serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",
+		"itemUrl": "https://marketplace.visualstudio.com/items"
+	}
+```
+to the `resources/app/product.json` file of the build.
 
 ## Screenshot
 
